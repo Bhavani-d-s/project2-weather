@@ -123,7 +123,7 @@ logging.info(f"Pipeline started for {CONFIG['city']}")
 try:
     raw = extract()
     rows = transform(raw)
-    # load(rows)
+    load(rows)
 except Exception as e:
     logging.error(f"Pipeline stopped: {e}. Nothing loaded, the old data is safe")
 logging.info("Pipeline finished")
