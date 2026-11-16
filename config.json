@@ -1,0 +1,13 @@
+{
+    "city": "Madurai",
+    "latitude": 9.93,
+    "longitude": 78.12,
+    "past_days": 7,
+    "forecast_days": 7,
+    "db_host": "localhost",
+    "db_port": 5432,
+    "db_name": "postgres",
+    "db_user": "postgres",
+    "api_url": "https://api.open-meteo.com/v1/forecast",
+    "max_tries": 3
+}
